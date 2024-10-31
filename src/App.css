@@ -34,3 +34,7 @@ canvas {
   background: linear-gradient(to bottom, #51082A, black); /* Dégradé du haut vers le bas */
   z-index: -1; /* Assurez-vous que le dégradé est derrière l'image */
 }
+
+.imageBackground {
+  background-image: "/molten3.jpg";
+}

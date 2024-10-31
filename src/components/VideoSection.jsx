@@ -1,29 +1,27 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 
-const VideoSection = () => {
+const VideoFooter = () => {
   const textRef = useRef(null);
 
   return (
-    <div>
-      <p
-        className="molten-3"
+    <div class="video-container">
+      <video
+        controls
+        autoPlay
+        loop
         style={{
-          fontSize: "500px",
-          color: "#FAD5EB",
-          textAlign: "center",
-          lineHeight: "0.8",
+          marginTop: "100px",
+          marginBottom: "100px",
+          width: "400px",
+          height: "auto",
+          zIndex: "5",
         }}
       >
-        Molten
-        <br />
-        Molten
-        <br />
-        Molten
-        <br />
-      </p>
+        <source src="/Composition.mp4" type="video/mp4" />
+      </video>
     </div>
   );
 };
 
-export default VideoSection;
+export default VideoFooter;

@@ -91,7 +91,7 @@ function App() {
           <FirstText />
           <SecondText />
         </div>
-        <VideoSection />
+        <VideoSection zIndex={3} />
         <BlackSection />
         <ArticlesSection />
         <Estelle />
